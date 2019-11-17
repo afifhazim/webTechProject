@@ -1,0 +1,302 @@
+* {
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+  /*border: 5px solid red;*/
+}
+
+/*---NAVIGATION BAR---*/
+.navBar {
+  position: fixed;
+  background-color: blue;
+  border-width: 1px 0;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+/*-HOME-*/
+#home {
+  position: relative;
+  /*display: inline-block;*/
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+#home:hover {
+  background-color: black;
+}
+
+/*-ABOUT-*/
+.about {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.about-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.about:hover {
+  background-color: black;
+}
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.about-dropdown a {
+  float: none;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.about:hover .about-dropdown {
+  display: block;
+}
+
+.about-dropdown a:hover {
+  background-color: blue;
+}
+
+/*-SUBMISSION-*/
+.submission {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.submission-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.submission:hover {
+  background-color: black;
+}
+
+.submission-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.submission-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submission-dropdown a:hover {
+  background-color: blue;
+}
+
+.submission:hover .submission-dropdown {
+  display: block;
+}
+
+/*-Fees & Registration-*/
+.fees {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.fees-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.fees:hover {
+  background-color: black;
+}
+
+.fees-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fees-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fees:hover .fees-dropdown {
+  display: block;
+}
+.fees-dropdown a:hover {
+  background-color: blue;
+}
+
+/*-PROGRAMS-*/
+.programs {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.programs .programs-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.programs:hover {
+  background-color: black;
+}
+
+.programs-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.programs-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.programs:hover .programs-dropdown {
+  display: block;
+}
+
+.programs-dropdown a:hover {
+  background-color: blue;
+}
+
+/*---HEADER---*/
+.header {
+  left: 0;
+  margin-top: 100px;
+  background-color: green;
+}
+
+.logo {
+
+}
+
+#eventName {
+  background-color: red;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+}
+
+.introduction {
+  left: 0;
+  text-align: center;
+  /* padding-top: 0px;
+  padding-bottom: 0px; */
+  /*border: 5px solid tomato;*/
+  color: white;
+}
+
+/*---CONTENT---*/
+.content {
+  left: 0;
+  /*border-top: 5px solid red;*/
+  /*border-bottom: 5px solid red;*/
+  /* padding-bottom: 250px;
+  padding-top: 250px; */
+  font-size: 24px;
+  background-color: green;
+  opacity: 50%;
+  color: white;
+}
+
+/*---FOOTER---*/
+.footer {
+ /* border: 5px solid red;*/
+  position: static;
+   left: 0;
+   /* bottom: 0; */
+   width: 100%;
+   background-color: green;
+   opacity: 50%;
+   color: white;
+   text-align: center;
+   clear: both;
+   height: 150px;
+   /* margin-top: -200px; */
+}
+
+.kict {
+  float: left;
+  text-align: left;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+}
