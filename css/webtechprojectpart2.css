@@ -1,0 +1,30 @@
+
+h1{
+  color: #1A5653;
+text-align: center;
+  font-size: 36px;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+
+}
+
+
+.introduction {
+  left: 0;
+  text-align: center;
+  /* padding-top: 0px;
+  padding-bottom: 0px; */
+  /*border: 5px solid tomato;*/
+  color: white;
+}
+
+/*---CONTENT---*/
+.content {
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+}

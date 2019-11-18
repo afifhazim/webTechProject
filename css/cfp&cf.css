@@ -1,0 +1,37 @@
+#papers{
+
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+table, tr, td{
+
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+}
+
+td{
+
+  width: 25%;
+}
+
+.row{
+  height:100vh;
+}
+h1{
+  color: #1A5653;
+text-align: center;
+  font-size: 36px;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+
+}
+
+/* ------------Main Body ---------------*/

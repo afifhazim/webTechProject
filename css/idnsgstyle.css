@@ -1,0 +1,83 @@
+
+
+#papers{
+
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+table, tr, td{
+
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+}
+
+td{
+
+  width: 25%;
+}
+
+.row{
+  height:100vh;
+}
+h1{
+  color: #1A5653;
+text-align: center;
+  font-size: 36px;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+
+}
+p{
+  align-content: center;
+  text-align: justify;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+strong{
+  color: red;
+}
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse:collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align:center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* ------------Main Body ---------------*/

@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* ------------Main Body ---------------*/
+.navBar {
+  position: fixed;
+  background-color: #1A5653;
+  border-width: 1px 0;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/*-HOME-*/
+#home {
+  position: relative;
+  /*display: inline-block;*/
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+#home:hover {
+  background-color: black;
+}
+
+/*-ABOUT-*/
+.about {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.about-button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.about:hover {
+  background-color: black;
+}
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.about-dropdown a {
+  float: none;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.about:hover .about-dropdown {
+  display: block;
+}
+
+.about-dropdown a:hover {
+  background-color: #D3D3D3;
+}
+
+/*-SUBMISSION-*/
+.submission {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.submission-button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.submission:hover {
+  background-color: black;
+}
+
+.submission-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.submission-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submission-dropdown a:hover {
+  background-color: #D3D3D3;
+}
+
+.submission:hover .submission-dropdown {
+  display: block;
+}
+
+/*-Fees & Registration-*/
+.fees {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.fees-button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.fees:hover {
+  background-color: black;
+}
+
+.fees-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fees-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fees:hover .fees-dropdown {
+  display: block;
+}
+.fees-dropdown a:hover {
+  background-color: #D3D3D3;
+}
+
+/*-PROGRAMS-*/
+.programs {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.programs .programs-button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.programs:hover {
+  background-color: black;
+}
+
+.programs-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.programs-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.programs:hover .programs-dropdown {
+  display: block;
+}
+
+.programs-dropdown a:hover {
+  background-color: #D3D3D3;
+}
+/*-------------- Navigation Bar -------------*/
+
+
+#slider {
+
+  background-image: url(slider2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+
+}
+
+
+
+/*------------Footer---------------- */
+
+.footer {
+
+  padding: 4%;
+  background-color: #1A5653;
+  position: static;
+
+}
+ .footer img{
+   float: left;
+   width: 50px;
+}
+
+/*------------Footer---------------- */
