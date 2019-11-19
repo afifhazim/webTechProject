@@ -7,21 +7,20 @@ body {
 }
 
 /* ------------Main Body ---------------*/
+/*---NAVIGATION BAR---*/
 .navBar {
   position: fixed;
   background-color: #1A5653;
-  border-width: 1px 0;
   width: 100%;
   top: 0;
   text-align: center;
+  font-size: 16px;
   color: white;
-  font-size: 20px;
 }
 
 /*-HOME-*/
 #home {
   position: relative;
-  /*display: inline-block;*/
   padding: 14px 16px;
   text-decoration: none;
   border: none;
@@ -31,7 +30,8 @@ body {
 }
 
 #home:hover {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 
 /*-ABOUT-*/
@@ -45,18 +45,19 @@ body {
 }
 
 .about-button {
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  color: white;
 }
 
-.about:hover {
-  background-color: black;
+.about-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .about-dropdown {
@@ -82,7 +83,8 @@ body {
 }
 
 .about-dropdown a:hover {
-  background-color: #D3D3D3;
+  background-color: #2c918c;
+  color: white;
 }
 
 /*-SUBMISSION-*/
@@ -96,18 +98,19 @@ body {
 }
 
 .submission-button {
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  color: white;
 }
 
-.submission:hover {
-  background-color: black;
+.submission-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .submission-dropdown {
@@ -128,14 +131,15 @@ body {
 }
 
 .submission-dropdown a:hover {
-  background-color: #D3D3D3;
+  background-color: #2c918c;
+  color: white;
 }
 
 .submission:hover .submission-dropdown {
   display: block;
 }
 
-/*-Fees & Registration-*/
+/*-FEES & REGISTRATION-*/
 .fees {
   position: relative;
   display: inline-block;
@@ -146,18 +150,19 @@ body {
 }
 
 .fees-button {
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  color: white;
 }
 
-.fees:hover {
-  background-color: black;
+.fees-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .fees-dropdown {
@@ -181,7 +186,8 @@ body {
   display: block;
 }
 .fees-dropdown a:hover {
-  background-color: #D3D3D3;
+  background-color: #2c918c;
+  color: white;
 }
 
 /*-PROGRAMS-*/
@@ -192,21 +198,23 @@ body {
   border: none;
   outline: none;
   margin: 0;
+  color: white;
 }
 
 .programs .programs-button {
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  color: white;
 }
 
-.programs:hover {
-  background-color: black;
+.programs-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .programs-dropdown {
@@ -231,7 +239,8 @@ body {
 }
 
 .programs-dropdown a:hover {
-  background-color: #D3D3D3;
+  background-color: #2c918c;
+  color: white;
 }
 /*-------------- Navigation Bar -------------*/
 
@@ -251,15 +260,48 @@ body {
 /*------------Footer---------------- */
 
 .footer {
-
-  padding: 4%;
-  background-color: #1A5653;
-  position: static;
-
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1A5653;
+   color: white;
+   text-align: center;
+   clear: both;
+   height: auto;
 }
- .footer img{
-   float: left;
-   width: 50px;
+
+.kict {
+  float: left;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 25px;
+  width: 35%;
+}
+
+.kict a {
+  position: relative;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+  line-height: 15px;
+}
+
+.contact a {
+  position: relative;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
 }
 
 /*------------Footer---------------- */
