@@ -4,7 +4,8 @@
 }
 
 body {
-  margin: 0;
+  /*8margin: 0;*/
+  background-color: white;
 }
 
 /* ------------Main Body ---------------*/
