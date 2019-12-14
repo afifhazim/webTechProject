@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/* ------------Main Body ---------------*/
+/*---NAVIGATION BAR---*/
+.navBar {
+  position: fixed;
+  background-color: #1A5653;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+/*-HOME-*/
+#home {
+  position: relative;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+#home:hover {
+  background-color: white;
+  color: black;
+}
+
+/*-ABOUT-*/
+.about {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.about-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: white;
+}
+
+.about-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.about-dropdown a {
+  float: none;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.about:hover .about-dropdown {
+  display: block;
+}
+
+.about-dropdown a:hover {
+  background-color: #2c918c;
+  color: white;
+}
+
+/*-SUBMISSION-*/
+.submission {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.submission-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: white;
+}
+
+.submission-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.submission-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.submission-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submission-dropdown a:hover {
+  background-color: #2c918c;
+  color: white;
+}
+
+.submission:hover .submission-dropdown {
+  display: block;
+}
+
+/*-FEES & REGISTRATION-*/
+.fees {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.fees-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: white;
+}
+
+.fees-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.fees-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fees-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fees:hover .fees-dropdown {
+  display: block;
+}
+.fees-dropdown a:hover {
+  background-color: #2c918c;
+  color: white;
+}
+
+/*-PROGRAMS-*/
+.programs {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+.programs .programs-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: white;
+}
+
+.programs-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.programs-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.programs-dropdown a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.programs:hover .programs-dropdown {
+  display: block;
+}
+
+.programs-dropdown a:hover {
+  background-color: #2c918c;
+  color: white;
+}
+/*-------------- Navigation Bar -------------*/
+
+
+#slider {
+
+  background-image: url(slider2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+
+}
+
+
+
+/*------------Footer---------------- */
+
+/*---FOOTER---*/
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1A5653;
+   color: white;
+   text-align: center;
+   clear: both;
+   height: auto;
+}
+
+.kict {
+  float: left;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 25px;
+  width: 35%;
+}
+
+.kict a {
+  position: relative;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+  line-height: 15px;
+}
+
+.contact a {
+  position: relative;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
+.iiumlogo img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/*------------Footer---------------- */
