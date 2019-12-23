@@ -282,6 +282,15 @@ body {
   width: 35%;
 }
 
+.kict2 a{
+  position: relative;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  color: white;
+}
+
 .kict a {
   position: relative;
   text-decoration: none;
