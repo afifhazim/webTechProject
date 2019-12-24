@@ -3,12 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Parallel Sessions</title>
-    <link rel="stylesheet" href="css/styleParallel.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styleParallel.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
+<style>
+
+
+</style>
 
   </head>
   <body>
-    
+
     <!-- ***NAVIGATION BAR*** -->
     <div class="navBar">
       <a href="index.html" id="home">Home</a>
@@ -58,18 +73,30 @@
 
     <div class="ParallelSession">
 
-      <div>
 
         <h1>PARALLEL SESSION</h1>
-        <br><br>
         <h2>List of rooms based on papers (ICT4M2020)</h2>
 
-      </div>
+        <br><br><br>
 
-      <embed class="Parallelpdf" src="Parallel-sessions-Latest.pdf">
+        <div id="tbd">
 
+          TO BE ANNOUNCED..
+          <br>______________________
+
+        </div>
+
+        <br><br><br><br><br><br><br>
+
+        <b> Previous parallel sessions :  </b><br><br>
+
+        <div id="flip">Click to view for ICT4M 2018</div>
+        <div id="panel"><embed class="Parallelpdf" src="Parallel-sessions-Latest.pdf"></div>
+
+          <br><br>
 
     </div>
+
 
       <div class="footer">
       <div class="kict"><a href="https://goo.gl/maps/hKoswd27PcpfcoSG6" id="kict-link">
