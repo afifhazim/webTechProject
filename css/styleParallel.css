@@ -1,4 +1,9 @@
 
+.ParallelSession{
+margin: 25%;
+
+}
+
 h1{
   color: #1A5653;
 text-align: center;
@@ -11,13 +16,31 @@ h2{
 
 }
 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #8abaae;
+  border: solid 1px #c3c3c3;
+  width: 700px;
+
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+  background-color: #e5eecc;
+}
+
+#tbd{
+  font-size: 30px;
+  color: #936c6c;
+  text-align: center;
+
+}
 
 .Parallelpdf {
-  margin: 25%;
-  margin-top: 0;
-  margin-bottom: 10%;
+  margin-left: -8%;
+  margin-top: -7%;
   height: 550px;
-  width: 800px;
-  text-align: center;
+  width: 695px;
 }
-/*-------------Main Body-----------*/
