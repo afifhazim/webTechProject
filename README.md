@@ -1,8 +1,10 @@
-# webTechProject
+# ICT4M2020 (Group no4)
+
+Project Name: ICT4M 2020
 
 Group contribution and future enhancement
 
-1. Muhammad 'Afif Hazim
+1. Muhammad 'Afif Hazim bin Mat Najib (1811167)
 
 Contribution:-
 - home page
@@ -17,7 +19,7 @@ Future enhancement:-
 - add script in home page
 - add script in contact page
 
-2. Zin Ko Ko
+2. Zin Ko Ko (1720067)
 
 Contribution:-
 - submission guidelines page
@@ -28,7 +30,7 @@ Future enhancement:-
 - update accordion jquery on important date
 - update script (accordion) in important date page and make it interactive 
 
-3. Muzafar
+3. MUHAMMAD MUZAFAR B. HASAN (1811419)
 
 Contribution:-
 - conference fees
@@ -38,7 +40,7 @@ Contribution:-
 Future enhancement:-
 - make a join now button on the conference fees and direct it to registration page
 
-4. Afif haikal
+4. MUHAMMAD AFIF HAIKAL B. NADZRI (1814025)
 
 Contribution:-
 - registration page
@@ -49,7 +51,8 @@ Contribution:-
 Future enhancement:-
 - Add javascript at registration form
 
-5. Nur haikal
+5. MUHAMMAD NUR HAIKAL B. MOHD
+ROSLI (1813779)
 
 Contribution:-
 - speaker page
@@ -65,7 +68,7 @@ Future enhancement:-
 
 
 THIRD PARTY RESOURCES
- - One of our team members, Zin Ko Ko have use jquery for the welcome pop-up message.
+ - One of our team members, Zin Ko Ko have use JQUERY for the WELCOME POP-UP MESSAGE.
 
 
 
