@@ -17,7 +17,7 @@ Future enhancement:-
 - add script in home page
 - add script in contact page
 
-2. Zin Ko KO
+2. Zin Ko Ko
 
 Contribution:-
 - submission guidelines page
@@ -31,23 +31,23 @@ Future enhancement:-
 3. Muzafar
 
 Contribution:-
--conference fees
--call for papers
--compile
+- conference fees
+- call for papers
+- compile
 
 Future enhancement:-
--make a join now button on the conference fees and direct it to registration page
+- make a join now button on the conference fees and direct it to registration page
 
 4. Afif haikal
 
 Contribution:-
--registration page
--conference programs/tentative program for ict4m 2020
--Design for menu layout
--Theme colour 
+- registration page
+- conference programs/tentative program for ict4m 2020
+- Design for menu layout
+- Theme colour 
 
 Future enhancement:-
--Add javascript at registration form
+- Add javascript at registration form
 
 5. Nur haikal
 
