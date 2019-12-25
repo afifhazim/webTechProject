@@ -63,21 +63,26 @@
       <h1>REGISTRATION</h1>
       <h2>International Conference on Information & Communication Technology for the Muslim World (ICT4M 2020)</h2>
 <td><tr><td><label for="rate">Rate: </label></td>
-<td> <select id="rate" name="rate">
-     <option >Local Participant W/out Paper</option>
-     <option >Intl. Participant W/out Paper</option>
-     <option >Presenter (International)</option>
-     <option >Presenter (Local)</option>
-     <option >Student (Presenter)</option>
-     <option >Exhibition</option>
-     <option >Intl. Student(Presenter)</option>
-     <option >Full-day Workshop(Non-Student)</option>
-     <option >Mini Workshop(Non-Student)</option>
-     <option >Presenter(additional 1 paper)</option>
-     <option >Presenter(additional 2 papers)</option>
-     <option >Mini Workshop(student)</option>
-     <option >Full day Workshop(student)</option></select> </td> </tr>
+<td> <select id="mySelect" onchange="myFunction()">
+     <option value="600"> Local Participant W/out Paper</option>
+     <option value="700">Intl. Participant W/out Paper</option>
+     <option value="2000">Presenter (International)</option>
+     <option value="1500">Presenter (Local)</option>
+     <option value="1000">Student (Presenter)</option>
+     <option value="1000">Exhibition</option>
+     <option value="1600">Intl. Student(Presenter)</option>
+     <option value="100">Full-day Workshop(Non-Student)</option>
+     <option value="50">Mini Workshop(Non-Student)</option>
+     <option value="500">Presenter(additional 1 paper)</option>
+     <option value="1000">Presenter(additional 2 papers)</option>
+     <option value="25">Mini Workshop(student)</option>
+     <option value="50">Full day Workshop(student)</option></select> </td> </tr>
 
+
+     <tr>
+       <td> <label>Price: </label> </td>
+       <td> <label id="priceRM"></td>
+     </tr>
      <tr><td> <label>Full Name: </label></td>
       <td><input type="text" name="" value=""></td>
      </tr>
@@ -122,5 +127,7 @@
       </div>
 
     </div>
+  
+      <script src="register.js"></script>
   </body>
 </html>
