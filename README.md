@@ -64,7 +64,7 @@ Future enhancement:-
 
 
 
-Third party resource
+THIRD PARTY RESOURCES
  - One of our team members, Zin Ko Ko have use jquery for the welcome pop-up message.
 
 
