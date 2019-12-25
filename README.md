@@ -8,6 +8,7 @@ Contribution:-
 - contact page
 - navigation bar
 - footer
+
 Future enhancement:-
 - add logo on navigation bar
 - add logo on footer
@@ -19,6 +20,7 @@ Future enhancement:-
 Contribution:-
 - submission guidelines page
 - important dates page
+
 Future enhancement:-
 - jquery widget (dialog) on home page and important dates page
 - update accordion jquery on important date
@@ -29,6 +31,7 @@ Contribution:-
 -conference fees
 -call for papers
 -compile
+
 Future enhancement:-
 -make a join now button on the conference fees and direct it to registration page
 
@@ -38,6 +41,7 @@ Contribution:-
 -conference programs/tentative program for ict4m 2020
 -Design for menu layout
 -Theme colour 
+
 Future enhancement:-
 -Add javascript at registration form
 
@@ -46,6 +50,7 @@ Contribution:-
 - speaker page
 - parallel session page
 - leader
+
 Future enhancement:-
 - add more bio of speakers
 - allow for more creative interaction in speaker page
