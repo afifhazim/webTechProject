@@ -11,6 +11,7 @@ Contribution:-
 - contact page
 - navigation bar
 - footer
+- create readme file
 
 Future enhancement:-
 - add logo on navigation bar
@@ -69,6 +70,12 @@ Future enhancement:-
 
 THIRD PARTY RESOURCES
  - One of our team members, Zin Ko Ko have use JQUERY for the WELCOME POP-UP MESSAGE.
+ - https://jqueryui.com/accordion/
+ - https://jqueryui.com/dialog/
+ - https://www.w3schools.com/jquery/jquery_slide.asp-
+ - https://www.w3schools.com/css/css_navbar.asp
+ - https://www.w3schools.com/jsref/prop_select_value.asp
+ - https://youtu.be/WNLC2b5AVIE
 
 
 
