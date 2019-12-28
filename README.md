@@ -1,4 +1,4 @@
-# ICT4M2020 (Group no4)
+# ICT4M2020 (Group no. 4)
 
 Project Name: ICT4M 2020
 
