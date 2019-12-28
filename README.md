@@ -68,7 +68,7 @@ Future enhancement:-
 
 
 
-THIRD PARTY RESOURCES
+THIRD PARTY RESOURCES (References)
  - One of our team members, Zin Ko Ko have use JQUERY for the WELCOME POP-UP MESSAGE.
  - https://jqueryui.com/accordion/
  - https://jqueryui.com/dialog/
