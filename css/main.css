@@ -1,3 +1,6 @@
+/*This css file apply to all web pages*/
+/*It contains the design for WHOLE page, BODY of the page, NAVIGATION BAR, and FOOTER page*/
+
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
