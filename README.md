@@ -37,6 +37,7 @@ Contribution:-
 - conference fees
 - call for papers
 - compile
+- add script in parallel sessions and keynote speakers page
 
 Future enhancement:-
 - make a join now button on the conference fees and direct it to registration page
