@@ -5,6 +5,11 @@
 
 }
 
+#papers .kict2 a{
+  text-decoration: none;
+  color: black;
+}
+
 table, tr, td{
 
   margin: auto;
